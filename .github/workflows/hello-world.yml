@@ -10,5 +10,5 @@ jobs:
       - name: echo hello, world
         run: echo "Hello, world"
 
-      - name: print title
-        run: echo "${{ github.event.issue.title }}"
+      # - name: print title
+      #   run: echo "${{ github.event.issue.title }}"
